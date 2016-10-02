@@ -122,11 +122,11 @@ body.index table {border: 4px solid #CCF4FF; padding: 18px;}
 
 /* filter css */
 
-input {
+input[type="search"] {
   border: 1px solid #ccc;
   margin: 16px 0px;
   width: 90%;
-  font-size: 16px;
+  font-size: 25px;
   padding: 8px;
 }
 .search_container{
