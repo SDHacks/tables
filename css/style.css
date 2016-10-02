@@ -1,10 +1,10 @@
 body {
-  background: url('http://sdhacks.io/images/scripps.jpg') no-repeat fixed;
+  background: url('../img/scripps.jpg') no-repeat fixed;
   background-size: cover;
 }
 
 .button {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 5px 10px;
   margin: 5px;
   text-decoration: none;
@@ -27,14 +27,14 @@ h1 {
 
 table {
   border-spacing: 0; width: 100%;
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.7);
   border-collapse: collapse;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #F0F0F0;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 tbody tr:last-child {
@@ -123,14 +123,19 @@ body.index table {border: 4px solid #CCF4FF; padding: 18px;}
 /* filter css */
 
 input[type="search"] {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   margin: 16px 0px;
   width: 90%;
   font-size: 25px;
   padding: 8px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input:focus {
+  outline: none;
+  border-color: #062946;
 }
 .search_container{
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   text-align:center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -142,6 +147,9 @@ input[type="search"] {
   z-index:999999;
   text-align:center;
   margin-bottom: 10px;
+}
+#header h1 {
+  color: white;
 }
 
 #footer{
